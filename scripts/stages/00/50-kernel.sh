@@ -12,6 +12,8 @@ for i in raspberrypi-bootloader-common raspberrypi-bootloader; do
   rm "$ROOTFS_PATH"/tempapk/$i*
 done
 
+# ls "$WORK_PATH"/kernel/lib
+
 rmdir "$ROOTFS_PATH"/tempapk
 
 (

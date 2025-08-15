@@ -16,12 +16,12 @@ set -e
 : "${DEFAULT_ROOT_PASSWORD:="nocturne"}"
 
 : "${SYSINIT_SERVICES:="devfs dmesg hwdrivers"}"
-: "${BOOT_SERVICES:="sysctl hostname bootmisc modules"}"
+: "${BOOT_SERVICES:="sysctl hostname bootmisc networking modules"}"
 : "${DEFAULT_SERVICES:=""}"
 : "${SHUTDOWN_SERVICES:="killprocs"}"
 
-: "${SIZE_BOOT:="100M"}"
-: "${SIZE_ROOT:="100M"}"
+: "${SIZE_BOOT:="200M"}"
+: "${SIZE_ROOT:="200M"}"
 
 : "${STAGES:="00 10 20 30 40"}"
 

@@ -4,4 +4,4 @@ curl -L https://dl-cdn.alpinelinux.org/alpine/v"$ALPINE_BUILD"/releases/aarch64/
 
 "$HELPERS_PATH"/chroot_exec.sh apk update
 "$HELPERS_PATH"/chroot_exec.sh apk upgrade --available
-"$HELPERS_PATH"/chroot_exec.sh apk add busybox-openrc busybox-extras
+"$HELPERS_PATH"/chroot_exec.sh apk add busybox-openrc busybox-extras linux-firmware-rtlwifi
